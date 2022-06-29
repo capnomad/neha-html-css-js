@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox tutorial</title>
+    <style>
+        .jamal {
+            height: 544px;
+            width: 100%;
+            border: 2px solid black;
+            /* initialize the container as a flex box */
+            display: flex;
+
+            /* FLex propertiesforflex container */
+            flex-direction: row; 
+            /* (default value of flex direction is row) */
+            /* flex-direction: column; */
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column-reverse; */
+
+
+        }
+        .item{
+            background-color: tomato;
+            border: 2px solid red;
+            margin: 10px ;
+            padding: 3px;
+            width: 200px;
+            height: 200px;
+        }
+
+        .item1 {
+           font-family: 'Courier New', Courier, monospace;
+        }
+
+        p {
+            color: darkgreen;
+        }
+        .a {
+            background-color: aqua;
+
+        }
+         .b {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         }
+
+         .c {
+            font-size: large;
+         }
+         .d {
+            padding-top: 30px;
+         }
+
+         .btn {
+            border: 1px solid blue;
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+            border-radius: 25%;
+         }
+
+        /* CSS Selectors
+        1. Tag - whole page
+        p {
+
+        }
+        2. Class - class
+        .box1 {
+
+        }
+
+        3. Id i id
+        #item1 {
+            
+        }
+        */
+    </style>
+</head>
+<body>
+    <h1>This is Flexbox Tutorial</h1>
+    <div class="jamal">
+        <div class="a c d" id="item-1">First Box
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, quas. Maiores, libero enim necessitatibus asperiores id laboriosam, accusantium distinctio voluptas deleniti sapiente recusandae aliquam, optio odit repudiandae eius dolorem dolor.</p>
+        </div>
+        <div class="item" id="item-2">Second Box
+            <p class="item1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo doloremque totam aliquam fugiat soluta beatae fugit eaque velit modi veritatis, quia sit vero facere. At quod quae libero voluptatum delectus.</p>
+        </div>
+        <div class="item" id="item-3">Third Box
+            <button class="btn">Hello neha</button>
+        </div>
+        <div class="item" id="item-4">Four Box</div>
+        <div class="item" id="item-5">Fifth Box</div>
+        <div class="item" id="item-6">Six Box</div>
+
+    </div>
+    
+</body>
+</html>

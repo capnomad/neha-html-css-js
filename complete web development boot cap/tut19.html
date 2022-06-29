@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+    <style>
+        *{
+            box-sizing:border-box;
+        }
+        body{
+            background-color: #e6cbf8;
+        }
+        .container {
+            background-color: rgb(99, 43, 219);
+            border: 3px solid rgb(217, 75, 19);
+
+            /* we can set margin/padding for top , bottom,left and right like this */
+             /* padding-top: 79px;  */
+             /* padding-bottom: 79px; */
+             /* padding-left: 80px;  */
+             /* padding-right: 90px;   */ 
+             /* padding/margin = top right bottom left */
+             /* padding: 23px, 56px, 6px, 78px; */
+
+             /* padding: y(top/bottom) x(left/right); */
+
+        
+            padding: 34px 19px; 
+            margin: 14px 19px;
+            border-radius: 23px;
+            width: 233px;
+            
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>This is my first heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, dolorum nobis corrupti
+            consequatur maiores porro eius eveniet eos facere in sit rerum, nihil beatae ipsum, quos dolor eligendi
+            ratione obcaecati dolore magnam ut? Nihil.</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my second heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, illo consequuntur ipsum aperiam quia
+            tempora, ut a, earum tempore magnam id. Illo obcaecati, doloribus consequuntur nobis inventore culpa vitae
+            odit numquam! Voluptatem, harum facere.</p>
+
+    </div>
+
+    <div class="container">
+        <h3>This is my third heading</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur facere, quos consequuntur
+            reprehenderit vel sint, assumenda ducimus inventore maxime nam et amet nostrum est quasi laborum voluptates
+            aperiam quo. Est quas facilis ex facere!</p>
+
+    </div>
+</body>
+
+</html>
