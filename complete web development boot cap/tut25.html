@@ -7,25 +7,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neha fitness</title>
 </head>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 <style>
     /* CSS Reset */
     body {
         margin: 0px;
         padding: 0px;
-        background-image: url("https://w0.peakpx.com/wallpaper/767/260/HD-wallpaper-training-bodybuilding-fitness-gym-sport-girl.jpg");
-        
+        background-image: url("https://1.bp.blogspot.com/-MpoesQPDGZw/WlociEQGu6I/AAAAAAAAHWI/Dwo9dm3U1KsLJo-yrF6QUsdcMRL8822iQCLcBGAs/w640-h427/Banner-for-post-new.jpg");
+
 
     }
 
     .left {
         display: inline-block;
         position: absolute;
-        border: 2px solid red;
+        border: 2px solid blueviolet;
         top: 20px;
         left: 34px;
 
 
+
+    }
+
+    .left img {
+        width: 136px;
+        filter: invert(100%);
+
+    }
+
+    .left div {
+        text-align: center;
     }
 
     .mid {
@@ -40,9 +52,9 @@
 
     .right {
         position: absolute;
-        right: 0px;
+        right: 34px;
         top: 20px;
-        border: 2px solid rgb(12, 12, 230);
+        border: 2px solid yellow;
         display: inline-block;
     }
 
@@ -62,9 +74,26 @@
 
 
     }
-    .navbar li a.hover, .navbar li a.active{
+
+    .navbar li a:hover,
+    .navbar li a.active {
         text-decoration: underline;
         color: grey;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: grey;
+
     }
 </style>
 
@@ -72,8 +101,10 @@
     <header class="header">
         <!-- left box for logo -->
         <div class="left">
+
+            <div>Neha fitness</div>
             <ul class="navbar">
- 
+
             </ul>
         </div>
 
@@ -81,7 +112,7 @@
             <!-- mid box for navbar -->
             <ul class="navbar">
 
-                <li> <a href="#" class="active">Home</a></li>
+                <li> <a href="#">Home</a></li>
                 <li> <a href="#">About us</a></li>
                 <li> <a href="#">Fitness Calculator</a></li>
                 <li> <a href="#">Contact us</a></li>
@@ -92,7 +123,7 @@
 
         <!-- right box for buttons -->
         <div class="right">
-            i am right
+            <button class="btn">Call US Now </button><button class="btn">Email US</button>
         </div>
 
 

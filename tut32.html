@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and After seudo selectors</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color:red;
+            background:url('https://images.unsplash.com/photo-1526344966-89049886b28d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80;')no-repeat center center/cover;
+        }
+        header::before{
+            position: absolute
+            content: ;
+            background: https://images.unsplash.com/photo-1526344966-89049886b28d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80;
+            width:100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.;
+            
+
+        }
+
+        .navigation {
+            font-size: 20px;
+            display: flex;
+
+
+        }
+
+        li {
+            list-style: none;
+            padding: 23px 23px;
+
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+        }
+
+        section {
+            height: 444px;
+
+            margin: 3px 23px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            font-size: 4em;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        /* section::after{
+            content: "This is a content";
+        } */
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">About</li>
+                <li class="item">Services</li>
+                <li class="item">Contact us</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Welcome to Coding World</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic maiores deserunt sint ducimus cupiditate? Ipsa,
+            eos alias itaque error blanditiis mollitia labore nostrum illo excepturi fuga, repudiandae quae veniam
+            dignissimos! Provident eius facilis unde minus atque fugit, iure quos ullam aliquid aperiam accusamus?
+            Possimus nam maiores qui reiciendis esse distinctio eaque tempora laudantium recusandae facere vitae atque
+            quibusdam dignissimos assumenda architecto optio neque cum amet, velit pariatur ut praesentium, modi beatae?
+            Maiores, provident odit soluta illo accusamus cupiditate nihil fugit architecto accusantium aperiam sequi
+            atque asperiores rerum alias error ea illum debitis ut quasi quibusdam? Placeat expedita ut nesciunt
+            reprehenderit accusamus reiciendis optio quidem voluptatibus beatae voluptatum atque minima nulla amet velit
+            non quibusdam rem eius ratione, voluptates magni error at pariatur aspernatur veritatis. Placeat quaerat non
+            provident velit natus animi rem similique molestias beatae repudiandae veniam, ut in voluptas explicabo
+            illum aspernatur eius sit hic soluta architecto. Provident recusandae voluptas aliquam veniam ipsum ipsa
+            vero, optio sequi commodi earum rem suscipit facilis dolorem rerum vitae nam blanditiis. Quia ad, voluptates
+            iste similique rem repudiandae veniam dolore, quidem velit optio magni reiciendis nisi rerum, at deserunt
+            eveniet culpa sunt distinctio officia. Itaque voluptatem illo voluptates, incidunt modi delectus deserunt
+            nostrum!</p>
+
+    </section>
+    
+</body>
+
+</html>
